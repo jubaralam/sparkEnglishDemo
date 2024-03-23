@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("PolarisStoriesV3TranslationDialogRootQuery_instagramRelayOperation",[],(function(a,b,c,d,e,f){e.exports="8206603952689674"}),null);
+__d("last",[],(function(a,b,c,d,e,f){"use strict";function a(a){var b=null;if(Array.isArray(a)||typeof a==="string")a.length&&(b={value:a[a.length-1]});else for(var a=a,c=Array.isArray(a),d=0,a=c?a:a[typeof Symbol==="function"?Symbol.iterator:"@@iterator"]();;){var e;if(c){if(d>=a.length)break;e=a[d++]}else{d=a.next();if(d.done)break;e=d.value}e=e;b=b||{};b.value=e}return b?b.value:null}f["default"]=a}),66);

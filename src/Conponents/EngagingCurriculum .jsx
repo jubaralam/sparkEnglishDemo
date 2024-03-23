@@ -2,7 +2,7 @@ import React from 'react';
 
 const EngagingCurriculum = () => {
   return (
-    <section className="bg-gray-100 py-12">
+    <section className="bg-gray-100 py-20 my-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-semibold text-center mb-8">Engaging Curriculum</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

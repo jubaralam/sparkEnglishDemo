@@ -4,6 +4,8 @@ import Navbar from './Conponents/Navbar'
 import HeroSection from './Conponents/HeroSection'
 import InnovativeTeachingMethods from './Conponents/InnovativeTeachingMethods'
 import EngagingCurriculum from './Conponents/EngagingCurriculum '
+import FacultyExcellence from './Conponents/FacultyExcellence'
+
 
 const App = () => {
   return (
@@ -15,6 +17,7 @@ const App = () => {
     <HeroSection />
   < InnovativeTeachingMethods />
   <EngagingCurriculum />
+  <FacultyExcellence />
     </div>
     </Router>
   )
