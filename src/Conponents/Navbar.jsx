@@ -5,7 +5,9 @@ import logo from "../assets/logo1.png"
 
 const Navbar = () => {
   return (
-    <nav className=" max-w-[1200px] radius-md p-4 flex justify-between items-center sticky top-0 z-10 space-between mx-auto rounded-b-[15px] bg-orange-500">
+    <section className="bg-gray-100  sticky top-0 z-10 ">
+
+    <nav className="max-w-7xl  px-4 sm:px-6 lg:px-8  radius-md p-4 flex justify-between items-center sticky top-0 z-10 space-between mx-auto rounded-b-[15px] bg-orange-500">
       <div>
       <Link to="/">
           <img src={logo} alt="Logo" className="h-8 w-auto rounded-xl" />
@@ -36,6 +38,7 @@ const Navbar = () => {
         <button className="text-white hover:text-gray-300">Login</button>
       </div>
     </nav>
+    </section>
   );
 };
 
