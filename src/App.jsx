@@ -5,6 +5,7 @@ import HeroSection from './Conponents/HeroSection'
 import InnovativeTeachingMethods from './Conponents/InnovativeTeachingMethods'
 import EngagingCurriculum from './Conponents/EngagingCurriculum '
 import FacultyExcellence from './Conponents/FacultyExcellence'
+import CareerOpportunities from './Conponents/CareerOpportunities'
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
   < InnovativeTeachingMethods />
   <EngagingCurriculum />
   <FacultyExcellence />
+  < CareerOpportunities />
     </div>
     </Router>
   )
