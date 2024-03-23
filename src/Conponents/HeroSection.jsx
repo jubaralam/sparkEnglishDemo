@@ -18,8 +18,8 @@ const HeroSection = () => {
         </button>
             </div>
           </div>
-          <div className="md:text-right flex md:justify-self-end sm:justify-self-center  p-2 bg-slate-200	 bg-gradient-to-tl from-orange-600 via-orange-400	 to-orange-600 rounded-lg	">
-            <img src={poster} alt="Hero" className="w-full md:w-auto md:max-w-sm mx-auto h-[400px] rounded-lg" />
+          <div className="md:text-right flex md:justify-self-end sm:justify-self-center  p-2 bg-slate-200	 bg-gradient-to-tl from-orange-600 via-orange-400	 to-orange-600 rounded-lg h-[400px]	">
+            <img src={poster} alt="Hero" className="w-full md:w-auto md:max-w-sm mx-auto  rounded-lg" />
           </div>
         </div>
       </div>
