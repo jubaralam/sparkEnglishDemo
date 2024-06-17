@@ -13,11 +13,11 @@ const handleSubmit = (e)=>{
     <section id="ContactSection" className="bg-gray-200 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
         <h2 className="text-3xl font-bold text-center mb-8">Contact Us</h2>
-        <div className=" flex justify-around flex-wrap items-center">
+        <div className=" flex justify-around flex-wrap-reverse	 items-center">
           <div className="p-4">
             <h3 className="text-xl font-semibold mb-4">Leave us a message</h3>
             <form>
-              <div className="mb-4 w-[500px]">
+              <div className="mb-4 lg:w-[500px] sm:w-full box-border ">
                 <label htmlFor="name" className="block text-gray-700">
                   Name
                 </label>
@@ -25,7 +25,7 @@ const handleSubmit = (e)=>{
                   type="text"
                   id="name"
                   name="name"
-                  className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500"
+                  className="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500 "
                 />
               </div>
               <div className="mb-4">
