@@ -1,5 +1,6 @@
 import React from "react";
 import mashkoorKhanImg from "../assets/mashkoor_khan.jpg"
+import yousufPro from "../assets/yousuf-pro.jpg"
 // import logo from "../assets/logo1.png"
 const FacultyExcellence = () => {
   return (
@@ -35,7 +36,7 @@ const FacultyExcellence = () => {
           <div className="bg-white rounded-lg shadow-md p-6 flex">
             <div className="">
               <img
-                src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAeP2o508M89xkDAfVKDKysH3l0Pheuwe_oBuawt0sPIeW9fuoy-LhAnc4HQmyanKubY8&usqp=CAU"}
+                src={yousufPro}
                 alt="Yousuf Ahmed"
                 className="w-[250px]  rounded-full relative right-0"
               />

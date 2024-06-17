@@ -5,9 +5,10 @@ import logo from "../assets/logo1.png"
 
 const Navbar = () => {
   return (
-    <section className="bg-gray-100  sticky top-0 z-10 ">
+    <section className="  sticky top-0 z-10 bg-orange-500 ">
 
-    <nav className="max-w-7xl  px-4 sm:px-6 lg:px-8  radius-md p-4 flex justify-between items-center sticky top-0 z-10 space-between mx-auto rounded-b-[15px] bg-orange-500">
+    <nav className="max-w-7xl w-full  px-4 sm:px-6 lg:px-8  radius-md p-4 flex justify-between items-center sticky top-0 z-10 space-between mx-auto rounded-b-[15px] box-border	
+   ">
       <div>
       <Link to="/">
           <img src={logo} alt="Logo" className="h-8 w-auto rounded-xl" />
@@ -28,7 +29,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/contact" className="text-white hover:text-gray-300">
+            <Link to="/#ContactSection" className="text-white hover:text-gray-300">
               Contact
             </Link>
           </li>

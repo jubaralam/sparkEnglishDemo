@@ -6,7 +6,7 @@ import InnovativeTeachingMethods from './Conponents/InnovativeTeachingMethods'
 import EngagingCurriculum from './Conponents/EngagingCurriculum '
 import FacultyExcellence from './Conponents/FacultyExcellence'
 import CareerOpportunities from './Conponents/CareerOpportunities'
-
+import ContactSection from './Conponents/ContactSection '
 
 const App = () => {
   return (
@@ -20,6 +20,7 @@ const App = () => {
   <EngagingCurriculum />
   <FacultyExcellence />
   < CareerOpportunities />
+  <ContactSection />
     </div>
     </Router>
   )
