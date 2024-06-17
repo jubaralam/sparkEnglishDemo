@@ -29,14 +29,17 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/#ContactSection" className="text-white hover:text-gray-300">
+            <Link to="/contact" className="text-white hover:text-gray-300">
               Contact
             </Link>
           </li>
         </ul>
       </div>
       <div>
-        <button className="text-white hover:text-gray-300">Login</button>
+       
+        <Link to="/login" className="text-white hover:text-gray-300">
+              Login
+            </Link>
       </div>
     </nav>
     </section>

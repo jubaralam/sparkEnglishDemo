@@ -1,29 +1,21 @@
-import React from 'react'
-import { BrowserRouter as Router } from 'react-router-dom'
-import Navbar from './Conponents/Navbar'
-import HeroSection from './Conponents/HeroSection'
-import InnovativeTeachingMethods from './Conponents/InnovativeTeachingMethods'
-import EngagingCurriculum from './Conponents/EngagingCurriculum '
-import FacultyExcellence from './Conponents/FacultyExcellence'
-import CareerOpportunities from './Conponents/CareerOpportunities'
-import ContactSection from './Conponents/ContactSection '
+import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+import Navbar from "./Conponents/Navbar";
 
+import Footer from "./Conponents/Footer";
+// import Home from "./Pages/Home";
+import AllRoutes from "./Conponents/AllRoutes";
 const App = () => {
   return (
-    <Router >
-
-    <div className='bg-gray-200'>
-       
-    <Navbar />
-    <HeroSection />
-  < InnovativeTeachingMethods />
-  <EngagingCurriculum />
-  <FacultyExcellence />
-  < CareerOpportunities />
-  <ContactSection />
-    </div>
+    <Router>
+      <div className="bg-gray-200">
+        <Navbar />
+        <AllRoutes />
+        <Footer />
+      </div>
+      
     </Router>
-  )
-}
+  );
+};
 
-export default App
+export default App;
