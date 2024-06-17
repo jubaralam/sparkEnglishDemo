@@ -14,10 +14,10 @@ const handleSubmit = (e)=>{
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
         <h2 className="text-3xl font-bold text-center mb-8">Contact Us</h2>
         <div className=" flex justify-around flex-wrap-reverse	 items-center">
-          <div className="p-4">
+          <div className="p-4 sm:w-full md:w-full">
             <h3 className="text-xl font-semibold mb-4">Leave us a message</h3>
             <form>
-              <div className="mb-4 lg:w-[500px] sm:w-full box-border ">
+              <div className="mb-4  ">
                 <label htmlFor="name" className="block text-gray-700">
                   Name
                 </label>
@@ -84,7 +84,7 @@ const handleSubmit = (e)=>{
                 </div>
               <div className="h-full align-middle">
 
-              <img src={poster} alt="" className=" w-10 block ml-2 h-full " />
+              <img src={poster} alt="" className=" w-10 sm:-w-6 block ml-2 h-full " />
               </div>
             </div>
           </div>
