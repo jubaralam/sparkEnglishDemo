@@ -1,374 +1,699 @@
 {
-    "class_name": "Mashkoor Sir",
-    "attendance": [
-      {
-        "name": "Mashkoor Sir",
-        "attendance": {
-          "6/7": "L",
-          "6/10": "L",
-          "6/11": "L",
-          "6/12": "L",
-          "6/13": "L"
+  "class_name": "Mashkoor Sir",
+  "attendance": [
+    {
+      "name": "Mashkoor Sir",
+      "attendance": [
+        {
+          "date": "6/7",
+          "status": "L"
         },
-        "summary": {
-          "Late": 4,
-          "Excused_absence": 0,
-          "Unexcused_absence": 0,
-          "Remaining": 70,
-          "June": 40,
-          "Total": 110,
-          "Paid": 0,
-          "Due_Fine": 110
-        }
-      },
-      {
-        "name": "Zubair",
-        "attendance": {
-          "6/7": "P",
-          "6/10": "P",
-          "6/11": "P",
-          "6/12": "P",
-          "6/13": "P"
+        {
+          "date": "6/10",
+          "status": "L"
         },
-        "summary": {
-          "Late": 0,
-          "Excused_absence": 0,
-          "Unexcused_absence": 0,
-          "Remaining": 0,
-          "June": 0,
-          "Total": 0,
-          "Paid": 0,
-          "Due_Fine": 0
-        }
-      },
-      {
-        "name": "Harsh",
-        "attendance": {
-          "6/7": "P",
-          "6/10": "P",
-          "6/11": "P",
-          "6/12": "P",
-          "6/13": "P"
+        {
+          "date": "6/11",
+          "status": "L"
         },
-        "summary": {
-          "Late": 0,
-          "Excused_absence": 0,
-          "Unexcused_absence": 0,
-          "Remaining": 26,
-          "June": 0,
-          "Total": 26,
-          "Paid": 0,
-          "Due_Fine": 26
-        }
-      },
-      {
-        "name": "Shivam",
-        "attendance": {
-          "6/7": "U",
-          "6/10": "P",
-          "6/11": "E",
-          "6/12": "P",
-          "6/13": "P",
-          "6/14": "P"
+        {
+          "date": "6/12",
+          "status": "L"
         },
-        "summary": {
-          "Late": 0,
-          "Excused_absence": 1,
-          "Unexcused_absence": 1,
-          "Remaining": 0,
-          "June": 20,
-          "Total": 20,
-          "Paid": 0,
-          "Due_Fine": 20
+        {
+          "date": "6/13",
+          "status": "L"
         }
-      },
-      {
-        "name": "Ranveer",
-        "attendance": {
-          "6/7": "U",
-          "6/10": "P",
-          "6/11": "P",
-          "6/12": "P",
-          "6/13": "P",
-          "6/14": "U"
-        },
-        "summary": {
-          "Late": 0,
-          "Excused_absence": 0,
-          "Unexcused_absence": 2,
-          "Remaining": 0,
-          "June": 40,
-          "Total": 40,
-          "Paid": 0,
-          "Due_Fine": 40
-        }
-      },
-      {
-        "name": "Anas",
-        "attendance": {
-          "6/7": "L",
-          "6/10": "L",
-          "6/11": "U",
-          "6/12": "L",
-          "6/13": "L"
-        },
-        "summary": {
-          "Late": 4,
-          "Excused_absence": 0,
-          "Unexcused_absence": 1,
-          "Remaining": 40,
-          "June": 60,
-          "Total": 100,
-          "Paid": 0,
-          "Due_Fine": 100
-        }
-      },
-      {
-        "name": "Rishika",
-        "attendance": {
-          "6/7": "E",
-          "6/10": "E",
-          "6/11": "E",
-          "6/12": "P",
-          "6/13": "P"
-        },
-        "summary": {
-          "Late": 0,
-          "Excused_absence": 3,
-          "Unexcused_absence": 0,
-          "Remaining": 46,
-          "June": 0,
-          "Total": 46,
-          "Paid": 0,
-          "Due_Fine": 46
-        }
-      },
-      {
-        "name": "Sejal",
-        "attendance": {
-          "6/7": "P",
-          "6/10": "E",
-          "6/11": "E",
-          "6/12": "P",
-          "6/13": "E"
-        },
-        "summary": {
-          "Late": 0,
-          "Excused_absence": 3,
-          "Unexcused_absence": 0,
-          "Remaining": 20,
-          "June": 0,
-          "Total": 20,
-          "Paid": 0,
-          "Due_Fine": 20
-        }
-      },
-      {
-        "name": "Rounak",
-        "attendance": {
-          "6/7": "U",
-          "6/10": "U",
-          "6/11": "U",
-          "6/12": "U",
-          "6/13": "U"
-        },
-        "summary": {
-          "Late": 0,
-          "Excused_absence": 0,
-          "Unexcused_absence": 5,
-          "Remaining": 12,
-          "June": 100,
-          "Total": 112,
-          "Paid": 0,
-          "Due_Fine": 112
-        }
-      },
-      {
-        "name": "Sonu",
-        "attendance": {
-          "6/7": "U",
-          "6/10": "U",
-          "6/11": "U",
-          "6/12": "E",
-          "6/13": "L"
-        },
-        "summary": {
-          "Late": 1,
-          "Excused_absence": 1,
-          "Unexcused_absence": 3,
-          "Remaining": 80,
-          "June": 70,
-          "Total": 150,
-          "Paid": 0,
-          "Due_Fine": 150
-        }
-      },
-      {
-        "name": "Arshalan",
-        "attendance": {
-          "6/7": "P",
-          "6/10": "L",
-          "6/11": "P",
-          "6/12": "P",
-          "6/13": "U"
-        },
-        "summary": {
-          "Late": 1,
-          "Excused_absence": 0,
-          "Unexcused_absence": 1,
-          "Remaining": 68,
-          "June": 30,
-          "Total": 98,
-          "Paid": 0,
-          "Due_Fine": 98
-        }
-      },
-      {
-        "name": "Samra",
-        "attendance": {
-          "6/7": "P",
-          "6/10": "P",
-          "6/11": "P",
-          "6/12": "U",
-          "6/13": "P"
-        },
-        "summary": {
-          "Late": 0,
-          "Excused_absence": 0,
-          "Unexcused_absence": 1,
-          "Remaining": 17,
-          "June": 20,
-          "Total": 37,
-          "Paid": 0,
-          "Due_Fine": 37
-        }
-      },
-      {
-        "name": "Afreen",
-        "attendance": {
-          "6/7": "P",
-          "6/10": "U",
-          "6/11": "E",
-          "6/12": "L",
-          "6/13": "U"
-        },
-        "summary": {
-          "Late": 1,
-          "Excused_absence": 1,
-          "Unexcused_absence": 2,
-          "Remaining": 20,
-          "June": 50,
-          "Total": 70,
-          "Paid": 0,
-          "Due_Fine": 70
-        }
-      },
-      {
-        "name": "Iqra",
-        "attendance": {
-          "6/7": "P",
-          "6/10": "L",
-          "6/11": "L",
-          "6/12": "L",
-          "6/13": "U"
-        },
-        "summary": {
-          "Late": 3,
-          "Excused_absence": 0,
-          "Unexcused_absence": 1,
-          "Remaining": 0,
-          "June": 50,
-          "Total": 50,
-          "Paid": 0,
-          "Due_Fine": 50
-        }
-      },
-      {
-        "name": "Subhana",
-        "attendance": {
-          "6/7": "P",
-          "6/10": "L",
-          "6/11": "L",
-          "6/12": "L",
-          "6/13": "P"
-        },
-        "summary": {
-          "Late": 3,
-          "Excused_absence": 0,
-          "Unexcused_absence": 0,
-          "Remaining": 0,
-          "June": 30,
-          "Total": 30,
-          "Paid": 0,
-          "Due_Fine": 30
-        }
-      },
-      {
-        "name": "Fariya",
-        "attendance": {
-          "6/7": "P",
-          "6/10": "P",
-          "6/11": "P",
-          "6/12": "U",
-          "6/13": "P"
-        },
-        "summary": {
-          "Late": 0,
-          "Excused_absence": 0,
-          "Unexcused_absence": 1,
-          "Remaining": 0,
-          "June": 20,
-          "Total": 20,
-          "Paid": 0,
-          "Due_Fine": 20
-        }
-      },
-      {
-        "name": "Sujit",
-        "attendance": {
-          "6/7": "P",
-          "6/10": "P",
-          "6/11": "L",
-          "6/12": "L",
-          "6/13": "U"
-        },
-        "summary": {
-          "Late": 3,
-          "Excused_absence": 0,
-          "Unexcused_absence": 1,
-          "Remaining": 0,
-          "June": 50,
-          "Total": 50,
-          "Paid": 0,
-          "Due_Fine": 50
-        }
-      },
-      {
-        "name": "Aayan",
-        "attendance": {
-          "6/7": "P",
-          "6/10": "P",
-          "6/11": "P",
-          "6/12": "U",
-          "6/13": "P"
-        },
-        "summary": {
-          "Late": 0,
-          "Excused_absence": 0,
-          "Unexcused_absence": 1,
-          "Remaining": 0,
-          "June": 20,
-          "Total": 20,
-          "Paid": 0,
-          "Due_Fine": 20
-        }
+      ],
+      "summary": {
+        "Late": 4,
+        "Excused_absence": 0,
+        "Unexcused_absence": 0,
+        "Remaining": 70,
+        "June": 40,
+        "Total": 110,
+        "Paid": 0,
+        "Due_Fine": 110
       }
-    ],
-    "totals": {
-      "remaining": 480,
-      "june": 879,
-      "total": 71,
-      "due_fine": 999
+    },
+    {
+      "name": "Zubair",
+      "attendance": [
+        {
+          "date": "6/7",
+          "status": "P"
+        },
+        {
+          "date": "6/10",
+          "status": "P"
+        },
+        {
+          "date": "6/11",
+          "status": "P"
+        },
+        {
+          "date": "6/12",
+          "status": "P"
+        },
+        {
+          "date": "6/13",
+          "status": "P"
+        }
+      ],
+      "summary": {
+        "Late": 0,
+        "Excused_absence": 0,
+        "Unexcused_absence": 0,
+        "Remaining": 0,
+        "June": 0,
+        "Total": 0,
+        "Paid": 0,
+        "Due_Fine": 0
+      }
+    },
+    {
+      "name": "Harsh",
+      "attendance": [
+        {
+          "date": "6/7",
+          "status": "P"
+        },
+        {
+          "date": "6/10",
+          "status": "P"
+        },
+        {
+          "date": "6/11",
+          "status": "P"
+        },
+        {
+          "date": "6/12",
+          "status": "P"
+        },
+        {
+          "date": "6/13",
+          "status": "P"
+        }
+      ],
+      "summary": {
+        "Late": 0,
+        "Excused_absence": 0,
+        "Unexcused_absence": 0,
+        "Remaining": 26,
+        "June": 0,
+        "Total": 26,
+        "Paid": 0,
+        "Due_Fine": 26
+      }
+    },
+    {
+      "name": "Shivam",
+      "attendance": [
+        {
+          "date": "6/7",
+          "status": "U"
+        },
+        {
+          "date": "6/10",
+          "status": "P"
+        },
+        {
+          "date": "6/11",
+          "status": "E"
+        },
+        {
+          "date": "6/12",
+          "status": "P"
+        },
+        {
+          "date": "6/13",
+          "status": "P"
+        },
+      ],
+      "summary": {
+        "Late": 0,
+        "Excused_absence": 1,
+        "Unexcused_absence": 1,
+        "Remaining": 0,
+        "June": 20,
+        "Total": 20,
+        "Paid": 0,
+        "Due_Fine": 20
+      }
+    },
+    {
+      "name": "Ranveer",
+      "attendance": [
+        {
+          "date": "6/7",
+          "status": "U"
+        },
+        {
+          "date": "6/10",
+          "status": "P"
+        },
+        {
+          "date": "6/11",
+          "status": "P"
+        },
+        {
+          "date": "6/12",
+          "status": "P"
+        }
+        ,
+        {
+          "date": "6/13",
+          "status": "P"
+        }
+        ,
+        {
+          "date": "6/14",
+          "status": "P"
+        }
+      ],
+      "summary": {
+        "Late": 0,
+        "Excused_absence": 0,
+        "Unexcused_absence": 2,
+        "Remaining": 0,
+        "June": 40,
+        "Total": 40,
+        "Paid": 0,
+        "Due_Fine": 40
+      }
+    },
+    {
+      "name": "Anas",
+      "attendance": [
+        {
+          "date": "6/7",
+          "status": "L"
+        },
+        {
+          "date": "6/10",
+          "status": "L"
+        },
+        {
+          "date": "6/11",
+          "status": "U"
+        },
+        {
+          "date": "6/12",
+          "status": "L"
+        },
+        {
+          "date": "6/13",
+          "status": "L"
+        },
+        {
+          "date": "6/14",
+          "status": "P"
+        }
+      ],
+      "summary": {
+        "Late": 4,
+        "Excused_absence": 0,
+        "Unexcused_absence": 1,
+        "Remaining": 40,
+        "June": 60,
+        "Total": 100,
+        "Paid": 0,
+        "Due_Fine": 100
+      }
+    },
+    {
+      "name": "Rishika",
+      "attendance": [
+        {
+          "date": "6/7",
+          "status": "E"
+        },
+        {
+          "date": "6/10",
+          "status": "E"
+        },
+        {
+          "date": "6/11",
+          "status": "E"
+        },
+        {
+          "date": "6/12",
+          "status": "P"
+        },
+        {
+          "date": "6/13",
+          "status": "P"
+        },
+        {
+          "date": "6/14",
+          "status": "P"
+        }
+      ],
+      "summary": {
+        "Late": 0,
+        "Excused_absence": 3,
+        "Unexcused_absence": 0,
+        "Remaining": 46,
+        "June": 0,
+        "Total": 46,
+        "Paid": 0,
+        "Due_Fine": 46
+      }
+    },
+    {
+      "name": "Sejal",
+      "attendance": [
+        {
+          "date": "6/7",
+          "status": "P"
+        },
+        {
+          "date": "6/10",
+          "status": "E"
+        },
+        {
+          "date": "6/11",
+          "status": "E"
+        },
+        {
+          "date": "6/12",
+          "status": "P"
+        },
+        {
+          "date": "6/13",
+          "status": "E"
+        },
+        {
+          "date": "6/14",
+          "status": "P"
+        }
+      ],
+      "summary": {
+        "Late": 0,
+        "Excused_absence": 3,
+        "Unexcused_absence": 0,
+        "Remaining": 20,
+        "June": 0,
+        "Total": 20,
+        "Paid": 0,
+        "Due_Fine": 20
+      }
+    },
+    {
+      "name": "Rounak",
+      "attendance": [
+        {
+          "date": "6/7",
+          "status": "U"
+        },
+        {
+          "date": "6/10",
+          "status": "U"
+        },
+        {
+          "date": "6/11",
+          "status": "U"
+        },
+        {
+          "date": "6/12",
+          "status": "U"
+        },
+        {
+          "date": "6/13",
+          "status": "U"
+        },
+        {
+          "date": "6/14",
+          "status": "P"
+        }
+      ],
+      "summary": {
+        "Late": 0,
+        "Excused_absence": 0,
+        "Unexcused_absence": 5,
+        "Remaining": 12,
+        "June": 100,
+        "Total": 112,
+        "Paid": 0,
+        "Due_Fine": 112
+      }
+    },
+    {
+      "name": "Sonu",
+      "attendance": [
+        {
+          "date": "6/7",
+          "status": "U"
+        },
+        {
+          "date": "6/10",
+          "status": "U"
+        },
+        {
+          "date": "6/11",
+          "status": "U"
+        },
+        {
+          "date": "6/12",
+          "status": "E"
+        },
+        {
+          "date": "6/13",
+          "status": "L"
+        },
+        {
+          "date": "6/14",
+          "status": "P"
+        }
+      ],
+      "summary": {
+        "Late": 1,
+        "Excused_absence": 1,
+        "Unexcused_absence": 3,
+        "Remaining": 80,
+        "June": 70,
+        "Total": 150,
+        "Paid": 0,
+        "Due_Fine": 150
+      }
+    },
+    {
+      "name": "Arshalan",
+      "attendance": [
+        {
+          "date": "6/7",
+          "status": "P"
+        },
+        {
+          "date": "6/10",
+          "status": "L"
+        },
+        {
+          "date": "6/11",
+          "status": "P"
+        },
+        {
+          "date": "6/12",
+          "status": "P"
+        },
+        {
+          "date": "6/13",
+          "status": "U"
+        },
+        {
+          "date": "6/14",
+          "status": "P"
+        }
+      ],
+      "summary": {
+        "Late": 1,
+        "Excused_absence": 0,
+        "Unexcused_absence": 1,
+        "Remaining": 68,
+        "June": 30,
+        "Total": 98,
+        "Paid": 0,
+        "Due_Fine": 98
+      }
+    },
+    {
+      "name": "Samra",
+      "attendance": [
+        {
+          "date": "6/7",
+          "status": "P"
+        },
+        {
+          "date": "6/10",
+          "status": "P"
+        },
+        {
+          "date": "6/11",
+          "status": "P"
+        },
+        {
+          "date": "6/12",
+          "status": "U"
+        },
+        {
+          "date": "6/13",
+          "status": "P"
+        },
+        {
+          "date": "6/14",
+          "status": "P"
+        }
+      ],
+      "summary": {
+        "Late": 0,
+        "Excused_absence": 0,
+        "Unexcused_absence": 1,
+        "Remaining": 17,
+        "June": 20,
+        "Total": 37,
+        "Paid": 0,
+        "Due_Fine": 37
+      }
+    },
+    {
+      "name": "Afreen",
+      "attendance": [
+        {
+          "date": "6/7",
+          "status": "P"
+        },
+        {
+          "date": "6/10",
+          "status": "U"
+        },
+        {
+          "date": "6/11",
+          "status": "E"
+        },
+        {
+          "date": "6/12",
+          "status": "L"
+        },
+        {
+          "date": "6/13",
+          "status": "U"
+        },
+        {
+          "date": "6/14",
+          "status": "P"
+        }
+      ],
+      "summary": {
+        "Late": 1,
+        "Excused_absence": 1,
+        "Unexcused_absence": 2,
+        "Remaining": 20,
+        "June": 50,
+        "Total": 70,
+        "Paid": 0,
+        "Due_Fine": 70
+      }
+    },
+    {
+      "name": "Iqra",
+      "attendance": [
+        {
+          "date": "6/7",
+          "status": "P"
+        },
+        {
+          "date": "6/10",
+          "status": "L"
+        },
+        {
+          "date": "6/11",
+          "status": "L"
+        },
+        {
+          "date": "6/12",
+          "status": "L"
+        },
+        {
+          "date": "6/13",
+          "status": "U"
+        },
+        {
+          "date": "6/14",
+          "status": "P"
+        }
+      ],
+      "summary": {
+        "Late": 3,
+        "Excused_absence": 0,
+        "Unexcused_absence": 1,
+        "Remaining": 0,
+        "June": 50,
+        "Total": 50,
+        "Paid": 0,
+        "Due_Fine": 50
+      }
+    },
+    {
+      "name": "Subhana",
+      "attendance": [
+        {
+          "date": "6/7",
+          "status": "P"
+        },
+        {
+          "date": "6/10",
+          "status": "L"
+        },
+        {
+          "date": "6/11",
+          "status": "L"
+        },
+        {
+          "date": "6/12",
+          "status": "L"
+        },
+        {
+          "date": "6/13",
+          "status": "P"
+        },
+        {
+          "date": "6/14",
+          "status": "P"
+        }
+      ],
+      "summary": {
+        "Late": 3,
+        "Excused_absence": 0,
+        "Unexcused_absence": 0,
+        "Remaining": 0,
+        "June": 30,
+        "Total": 30,
+        "Paid": 0,
+        "Due_Fine": 30
+      }
+    },
+    {
+      "name": "Fariya",
+      "attendance": [
+        {
+          "date": "6/7",
+          "status": "P"
+        },
+        {
+          "date": "6/10",
+          "status": "P"
+        },
+        {
+          "date": "6/11",
+          "status": "P"
+        },
+        {
+          "date": "6/12",
+          "status": "U"
+        },
+        {
+          "date": "6/13",
+          "status": "P"
+        },
+        {
+          "date": "6/14",
+          "status": "P"
+        }
+      ],
+      "summary": {
+        "Late": 0,
+        "Excused_absence": 0,
+        "Unexcused_absence": 1,
+        "Remaining": 0,
+        "June": 20,
+        "Total": 20,
+        "Paid": 0,
+        "Due_Fine": 20
+      }
+    },
+    {
+      "name": "Sujit",
+      "attendance": [
+        {
+          "date": "6/7",
+          "status": "P"
+        },
+        {
+          "date": "6/10",
+          "status": "P"
+        },
+        {
+          "date": "6/11",
+          "status": "L"
+        },
+        {
+          "date": "6/12",
+          "status": "L"
+        },
+        {
+          "date": "6/13",
+          "status": "U"
+        },
+        {
+          "date": "6/14",
+          "status": "P"
+        }
+      ],
+      "summary": {
+        "Late": 3,
+        "Excused_absence": 0,
+        "Unexcused_absence": 1,
+        "Remaining": 0,
+        "June": 50,
+        "Total": 50,
+        "Paid": 0,
+        "Due_Fine": 50
+      }
+    },
+    {
+      "name": "Aayan",
+      "attendance": [
+        {
+          "date": "6/7",
+          "status": "P"
+        },
+        {
+          "date": "6/10",
+          "status": "P"
+        },
+        {
+          "date": "6/11",
+          "status": "P"
+        },
+        {
+          "date": "6/12",
+          "status": "U"
+        },
+        {
+          "date": "6/13",
+          "status": "P"
+        },
+        {
+          "date": "6/14",
+          "status": "P"
+        }
+      ],
+      "summary": {
+        "Late": 0,
+        "Excused_absence": 0,
+        "Unexcused_absence": 1,
+        "Remaining": 0,
+        "June": 20,
+        "Total": 20,
+        "Paid": 0,
+        "Due_Fine": 20
+      }
     }
+  ],
+  "totals": {
+    "remaining": 480,
+    "june": 879,
+    "total": 71,
+    "due_fine": 999
   }
-  
+}

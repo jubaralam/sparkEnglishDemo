@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { userCrediantial } from '../Context/AuthContext'
-import StudentAttendanceTable from '../Conponents/StudentAttendanceTable'
+import AttendanceData from '../Conponents/AttendanceData'
 
 const UserDashboard = () => {
    const {isLoggedIn, token} = useContext(userCrediantial)
@@ -8,7 +8,7 @@ const UserDashboard = () => {
   
   return (
     <div>
-        <StudentAttendanceTable />
+        <AttendanceData />
 
     <div>UserDashboard {isLoggedIn ? "True": "False"}</div>
     <p> token : {token}</p>
