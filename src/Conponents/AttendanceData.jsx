@@ -120,7 +120,7 @@ const AttendanceData = () => {
                       {attendance.status}
                     </td>
                   ))}
-                  <td className="px-6 py-4 whitespace-nowrap text-left text-sm text-gray-500">
+                  <td className="px-6 py-4 whitespace-nowrap text-left text-sm text-gray-500" key={data.id}>
                     {renderSummary(data.summary)}
                   </td>
                 </tr>
