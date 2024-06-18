@@ -51,7 +51,7 @@ const ContactSection = () => {
               <button
                 onClick={handleSubmit}
                 type="submit"
-                className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 w-full"
+                className="bg-orange-500  hover:bg-orange-600 text-white px-4 py-2 rounded-md  w-full"
               >
                 Send Message
               </button>
