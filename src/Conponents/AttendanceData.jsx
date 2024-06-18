@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import Loading from "./Loading";
+import { Navigate, useNavigate } from "react-router-dom";
 
 // const attendanceData = [
 //   {
@@ -48,7 +49,7 @@ import Loading from "./Loading";
 const AttendanceData = () => {
   const [attendanceData, setAttendanceData] = useState([]);
   const [loading, setLoading] = useState(true);
-
+  const navigate = useNavigate();
   const getAttendanceData = async (url) => {
     try {
       const response = await axios({
@@ -82,6 +83,10 @@ const AttendanceData = () => {
       </>
     );
   };
+
+  const navigateToStudentDetails = (name) => {
+    navigate(`/dashboard/${name}`);
+  };
   if (attendanceData) {
     return (
       <>
@@ -106,21 +111,29 @@ const AttendanceData = () => {
                 </th>
               </tr>
             </thead>
-            <tbody className="bg-white divide-y divide-gray-200">
+            <tbody className="bg-white divide-y divide-gray-200 tableData">
               {attendanceData?.map((data, index) => (
                 <tr key={index}>
-                  <td className="px-6 py-4 whitespace-nowrap text-left text-sm font-medium text-gray-900">
+                  <td
+                    className="px-6 py-4 whitespace-nowrap text-left text-sm font-medium text-gray-900"
+                    onClick={() => navigateToStudentDetails(data.name)}
+                  >
                     {data.name}
                   </td>
                   {data.attendance?.map((attendance, idx) => (
                     <td
                       key={idx}
                       className="px-6 py-4 whitespace-nowrap text-left text-sm text-gray-500"
+                      onClick={() => navigateToStudentDetails(data.name)}
                     >
                       {attendance.status}
                     </td>
                   ))}
-                  <td className="px-6 py-4 whitespace-nowrap text-left text-sm text-gray-500" key={data.id}>
+                  <td
+                    className="px-6 py-4 whitespace-nowrap text-left text-sm text-gray-500"
+                    key={data.name}
+                    onClick={() => navigateToStudentDetails(data.name)}
+                  >
                     {renderSummary(data.summary)}
                   </td>
                 </tr>

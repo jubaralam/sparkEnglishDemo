@@ -7,6 +7,7 @@ import About from "../Pages/About";
 import Contact from "../Pages/Contact";
 import UserDashboard from "../Pages/UserDashboard";
 import PrivateRoutes from "./PrivateRoutes";
+import StudentDetails from "./StudentDetails";
 const AllRoutes = () => {
   return (
     <Routes>
@@ -20,6 +21,14 @@ const AllRoutes = () => {
         element={
           <PrivateRoutes>
             <UserDashboard />
+          </PrivateRoutes>
+        }
+      />
+      <Route
+        path="/dashboard/:studentName"
+        element={
+          <PrivateRoutes>
+            <StudentDetails />
           </PrivateRoutes>
         }
       />
