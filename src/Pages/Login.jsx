@@ -70,6 +70,7 @@ const Login = () => {
             Login
           </button>
         </form>
+        <p onClick={()=> navigate("/register")} className="mx-auto my-2 text-center py-5 text-xl text-blue-800 cursor-pointer">Register</p>
       </div>
     </section>
   );
