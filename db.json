@@ -1,14 +1,28 @@
 {
-  "className": "Mashkoor Sir",
   "attendance": [
     {
       "name": "Mashkoor Sir",
       "attendance": [
-        { "date": "6/7", "status": "L" },
-        { "date": "6/10", "status": "L" },
-        { "date": "6/11", "status": "L" },
-        { "date": "6/12", "status": "L" },
-        { "date": "6/13", "status": "L" }
+        {
+          "date": "6/7",
+          "status": "L"
+        },
+        {
+          "date": "6/10",
+          "status": "L"
+        },
+        {
+          "date": "6/11",
+          "status": "L"
+        },
+        {
+          "date": "6/12",
+          "status": "L"
+        },
+        {
+          "date": "6/13",
+          "status": "L"
+        }
       ],
       "summary": {
         "late": 4,
@@ -24,11 +38,26 @@
     {
       "name": "Zubair",
       "attendance": [
-        { "date": "6/7", "status": "P" },
-        { "date": "6/10", "status": "P" },
-        { "date": "6/11", "status": "P" },
-        { "date": "6/12", "status": "P" },
-        { "date": "6/13", "status": "P" }
+        {
+          "date": "6/7",
+          "status": "P"
+        },
+        {
+          "date": "6/10",
+          "status": "P"
+        },
+        {
+          "date": "6/11",
+          "status": "P"
+        },
+        {
+          "date": "6/12",
+          "status": "P"
+        },
+        {
+          "date": "6/13",
+          "status": "P"
+        }
       ],
       "summary": {
         "late": 0,
@@ -44,11 +73,26 @@
     {
       "name": "Harsh",
       "attendance": [
-        { "date": "6/7", "status": "P" },
-        { "date": "6/10", "status": "P" },
-        { "date": "6/11", "status": "P" },
-        { "date": "6/12", "status": "P" },
-        { "date": "6/13", "status": "P" }
+        {
+          "date": "6/7",
+          "status": "P"
+        },
+        {
+          "date": "6/10",
+          "status": "P"
+        },
+        {
+          "date": "6/11",
+          "status": "P"
+        },
+        {
+          "date": "6/12",
+          "status": "P"
+        },
+        {
+          "date": "6/13",
+          "status": "P"
+        }
       ],
       "summary": {
         "late": 0,
@@ -64,12 +108,26 @@
     {
       "name": "Shivam",
       "attendance": [
-        { "date": "6/7", "status": "U" },
-        { "date": "6/10", "status": "P" },
-        { "date": "6/11", "status": "E" },
-        { "date": "6/12", "status": "P" },
-        { "date": "6/13", "status": "P" },
-        { "date": "6/14", "status": "P" }
+        {
+          "date": "6/7",
+          "status": "U"
+        },
+        {
+          "date": "6/10",
+          "status": "P"
+        },
+        {
+          "date": "6/11",
+          "status": "E"
+        },
+        {
+          "date": "6/12",
+          "status": "P"
+        },
+        {
+          "date": "6/13",
+          "status": "P"
+        }
       ],
       "summary": {
         "late": 0,
@@ -85,12 +143,26 @@
     {
       "name": "Ranveer",
       "attendance": [
-        { "date": "6/7", "status": "U" },
-        { "date": "6/10", "status": "P" },
-        { "date": "6/11", "status": "P" },
-        { "date": "6/12", "status": "P" },
-        { "date": "6/13", "status": "P" },
-        { "date": "6/14", "status": "U" }
+        {
+          "date": "6/7",
+          "status": "U"
+        },
+        {
+          "date": "6/10",
+          "status": "P"
+        },
+        {
+          "date": "6/11",
+          "status": "P"
+        },
+        {
+          "date": "6/12",
+          "status": "P"
+        },
+        {
+          "date": "6/13",
+          "status": "P"
+        }
       ],
       "summary": {
         "late": 0,
@@ -106,11 +178,26 @@
     {
       "name": "Anas",
       "attendance": [
-        { "date": "6/7", "status": "L" },
-        { "date": "6/10", "status": "L" },
-        { "date": "6/11", "status": "U" },
-        { "date": "6/12", "status": "L" },
-        { "date": "6/13", "status": "L" }
+        {
+          "date": "6/7",
+          "status": "L"
+        },
+        {
+          "date": "6/10",
+          "status": "L"
+        },
+        {
+          "date": "6/11",
+          "status": "U"
+        },
+        {
+          "date": "6/12",
+          "status": "L"
+        },
+        {
+          "date": "6/13",
+          "status": "L"
+        }
       ],
       "summary": {
         "late": 4,
@@ -126,11 +213,26 @@
     {
       "name": "Rishika",
       "attendance": [
-        { "date": "6/7", "status": "E" },
-        { "date": "6/10", "status": "E" },
-        { "date": "6/11", "status": "E" },
-        { "date": "6/12", "status": "P" },
-        { "date": "6/13", "status": "P" }
+        {
+          "date": "6/7",
+          "status": "E"
+        },
+        {
+          "date": "6/10",
+          "status": "E"
+        },
+        {
+          "date": "6/11",
+          "status": "E"
+        },
+        {
+          "date": "6/12",
+          "status": "P"
+        },
+        {
+          "date": "6/13",
+          "status": "P"
+        }
       ],
       "summary": {
         "late": 0,
@@ -146,11 +248,26 @@
     {
       "name": "Sejal",
       "attendance": [
-        { "date": "6/7", "status": "P" },
-        { "date": "6/10", "status": "E" },
-        { "date": "6/11", "status": "E" },
-        { "date": "6/12", "status": "P" },
-        { "date": "6/13", "status": "E" }
+        {
+          "date": "6/7",
+          "status": "P"
+        },
+        {
+          "date": "6/10",
+          "status": "E"
+        },
+        {
+          "date": "6/11",
+          "status": "E"
+        },
+        {
+          "date": "6/12",
+          "status": "P"
+        },
+        {
+          "date": "6/13",
+          "status": "E"
+        }
       ],
       "summary": {
         "late": 0,
@@ -166,11 +283,26 @@
     {
       "name": "Rounak",
       "attendance": [
-        { "date": "6/7", "status": "U" },
-        { "date": "6/10", "status": "U" },
-        { "date": "6/11", "status": "U" },
-        { "date": "6/12", "status": "U" },
-        { "date": "6/13", "status": "U" }
+        {
+          "date": "6/7",
+          "status": "U"
+        },
+        {
+          "date": "6/10",
+          "status": "U"
+        },
+        {
+          "date": "6/11",
+          "status": "U"
+        },
+        {
+          "date": "6/12",
+          "status": "U"
+        },
+        {
+          "date": "6/13",
+          "status": "U"
+        }
       ],
       "summary": {
         "late": 0,
@@ -186,11 +318,26 @@
     {
       "name": "Sonu",
       "attendance": [
-        { "date": "6/7", "status": "U" },
-        { "date": "6/10", "status": "U" },
-        { "date": "6/11", "status": "U" },
-        { "date": "6/12", "status": "E" },
-        { "date": "6/13", "status": "L" }
+        {
+          "date": "6/7",
+          "status": "U"
+        },
+        {
+          "date": "6/10",
+          "status": "U"
+        },
+        {
+          "date": "6/11",
+          "status": "U"
+        },
+        {
+          "date": "6/12",
+          "status": "E"
+        },
+        {
+          "date": "6/13",
+          "status": "L"
+        }
       ],
       "summary": {
         "late": 1,
@@ -206,11 +353,26 @@
     {
       "name": "Arshalan",
       "attendance": [
-        { "date": "6/7", "status": "P" },
-        { "date": "6/10", "status": "L" },
-        { "date": "6/11", "status": "P" },
-        { "date": "6/12", "status": "P" },
-        { "date": "6/13", "status": "U" }
+        {
+          "date": "6/7",
+          "status": "P"
+        },
+        {
+          "date": "6/10",
+          "status": "L"
+        },
+        {
+          "date": "6/11",
+          "status": "P"
+        },
+        {
+          "date": "6/12",
+          "status": "P"
+        },
+        {
+          "date": "6/13",
+          "status": "U"
+        }
       ],
       "summary": {
         "late": 1,
@@ -226,11 +388,26 @@
     {
       "name": "Samra",
       "attendance": [
-        { "date": "6/7", "status": "P" },
-        { "date": "6/10", "status": "P" },
-        { "date": "6/11", "status": "P" },
-        { "date": "6/12", "status": "U" },
-        { "date": "6/13", "status": "P" }
+        {
+          "date": "6/7",
+          "status": "P"
+        },
+        {
+          "date": "6/10",
+          "status": "P"
+        },
+        {
+          "date": "6/11",
+          "status": "P"
+        },
+        {
+          "date": "6/12",
+          "status": "U"
+        },
+        {
+          "date": "6/13",
+          "status": "P"
+        }
       ],
       "summary": {
         "late": 0,
@@ -246,11 +423,26 @@
     {
       "name": "Afreen",
       "attendance": [
-        { "date": "6/7", "status": "P" },
-        { "date": "6/10", "status": "U" },
-        { "date": "6/11", "status": "E" },
-        { "date": "6/12", "status": "L" },
-        { "date": "6/13", "status": "U" }
+        {
+          "date": "6/7",
+          "status": "P"
+        },
+        {
+          "date": "6/10",
+          "status": "U"
+        },
+        {
+          "date": "6/11",
+          "status": "E"
+        },
+        {
+          "date": "6/12",
+          "status": "L"
+        },
+        {
+          "date": "6/13",
+          "status": "U"
+        }
       ],
       "summary": {
         "late": 1,
@@ -266,11 +458,26 @@
     {
       "name": "Iqra",
       "attendance": [
-        { "date": "6/7", "status": "P" },
-        { "date": "6/10", "status": "L" },
-        { "date": "6/11", "status": "L" },
-        { "date": "6/12", "status": "L" },
-        { "date": "6/13", "status": "U" }
+        {
+          "date": "6/7",
+          "status": "P"
+        },
+        {
+          "date": "6/10",
+          "status": "L"
+        },
+        {
+          "date": "6/11",
+          "status": "L"
+        },
+        {
+          "date": "6/12",
+          "status": "L"
+        },
+        {
+          "date": "6/13",
+          "status": "U"
+        }
       ],
       "summary": {
         "late": 3,
@@ -286,11 +493,26 @@
     {
       "name": "Subhana",
       "attendance": [
-        { "date": "6/7", "status": "P" },
-        { "date": "6/10", "status": "L" },
-        { "date": "6/11", "status": "L" },
-        { "date": "6/12", "status": "L" },
-        { "date": "6/13", "status": "P" }
+        {
+          "date": "6/7",
+          "status": "P"
+        },
+        {
+          "date": "6/10",
+          "status": "L"
+        },
+        {
+          "date": "6/11",
+          "status": "L"
+        },
+        {
+          "date": "6/12",
+          "status": "L"
+        },
+        {
+          "date": "6/13",
+          "status": "P"
+        }
       ],
       "summary": {
         "late": 3,
@@ -306,11 +528,26 @@
     {
       "name": "Fariya",
       "attendance": [
-        { "date": "6/7", "status": "P" },
-        { "date": "6/10", "status": "P" },
-        { "date": "6/11", "status": "P" },
-        { "date": "6/12", "status": "U" },
-        { "date": "6/13", "status": "P" }
+        {
+          "date": "6/7",
+          "status": "P"
+        },
+        {
+          "date": "6/10",
+          "status": "P"
+        },
+        {
+          "date": "6/11",
+          "status": "P"
+        },
+        {
+          "date": "6/12",
+          "status": "U"
+        },
+        {
+          "date": "6/13",
+          "status": "P"
+        }
       ],
       "summary": {
         "late": 0,
@@ -326,11 +563,26 @@
     {
       "name": "Sujit",
       "attendance": [
-        { "date": "6/7", "status": "P" },
-        { "date": "6/10", "status": "P" },
-        { "date": "6/11", "status": "L" },
-        { "date": "6/12", "status": "L" },
-        { "date": "6/13", "status": "U" }
+        {
+          "date": "6/7",
+          "status": "P"
+        },
+        {
+          "date": "6/10",
+          "status": "P"
+        },
+        {
+          "date": "6/11",
+          "status": "L"
+        },
+        {
+          "date": "6/12",
+          "status": "L"
+        },
+        {
+          "date": "6/13",
+          "status": "U"
+        }
       ],
       "summary": {
         "late": 3,
@@ -346,11 +598,26 @@
     {
       "name": "Aayan",
       "attendance": [
-        { "date": "6/7", "status": "P" },
-        { "date": "6/10", "status": "P" },
-        { "date": "6/11", "status": "P" },
-        { "date": "6/12", "status": "U" },
-        { "date": "6/13", "status": "P" }
+        {
+          "date": "6/7",
+          "status": "P"
+        },
+        {
+          "date": "6/10",
+          "status": "P"
+        },
+        {
+          "date": "6/11",
+          "status": "P"
+        },
+        {
+          "date": "6/12",
+          "status": "U"
+        },
+        {
+          "date": "6/13",
+          "status": "P"
+        }
       ],
       "summary": {
         "late": 0,

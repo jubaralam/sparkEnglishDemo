@@ -31,7 +31,7 @@ const Login = () => {
   };
   if (message.token) {
     alert(message.message);
-    return navigate("/dashboard");
+    return navigate("/user/dashboard");
   }
   return (
     <section className=" bg-gray-200  h-[100vh] align-middle py-28 px-5">

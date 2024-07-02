@@ -58,8 +58,8 @@ const AttendanceData = () => {
       });
 
       setLoading(false);
-      console.log(response.data);
-      setAttendanceData(response.data);
+      console.log(response.data.data);
+      setAttendanceData(response.data.data);
     } catch (error) {
       setLoading(true);
       console.log(error);
@@ -67,7 +67,9 @@ const AttendanceData = () => {
   };
 
   useEffect(() => {
-    getAttendanceData("http://localhost:3000/attendance");
+    getAttendanceData(
+      "https://backend-for-spark-english.onrender.com/student/"
+    );
   }, []);
 
   if (loading) {
@@ -85,7 +87,7 @@ const AttendanceData = () => {
   };
 
   const navigateToStudentDetails = (name) => {
-    navigate(`/dashboard/${name}`);
+    navigate(`/admin/dashboard/${name}`);
   };
   if (attendanceData) {
     return (
@@ -98,7 +100,7 @@ const AttendanceData = () => {
                 <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                   Name
                 </th>
-                {attendanceData[0].attendance?.map((date) => (
+                {attendanceData[1].attendance?.map((date) => (
                   <th
                     key={date.data}
                     className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"

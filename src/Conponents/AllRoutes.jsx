@@ -17,7 +17,7 @@ const AllRoutes = () => {
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route
-        path="/dashboard"
+        path="/admin/dashboard"
         element={
           <PrivateRoutes>
             <UserDashboard />
@@ -25,7 +25,7 @@ const AllRoutes = () => {
         }
       />
       <Route
-        path="/dashboard/:studentName"
+        path="/admin/dashboard/:studentName"
         element={
           <PrivateRoutes>
             <StudentDetails />
