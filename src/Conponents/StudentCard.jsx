@@ -36,7 +36,7 @@ const jsonData = {
 
 const StudentCard = ({ studentName, attendance }) => {
   const [attendanceData, setAttendanceData] = useState([]);
-  const dayNames = [ "Mon", "Tue", "Wed", "Thu", "Fri"];
+  const dayNames = ["Mon", "Tue", "Wed", "Thu", "Fri"];
   const today = new Date();
   const currentDay = dayNames[today.getDay()]; // Gets the current day name (e.g., "Tue")
   const currentDate = today.getDate(); // Gets the current date
@@ -75,30 +75,41 @@ const StudentCard = ({ studentName, attendance }) => {
   const daysData = organizeAttendanceByDay();
 
   return (
-    <div className="p-6 max-w-screen-lg mx-auto">
-      <h1 className="text-2xl font-semibold mb-4 text-center">
-        Attendance Calendar
-      </h1>
-      <div className="mb-4 grid grid-cols-5 gap-2 text-center text-white bg-orange-400 p-2 rounded-t-lg">
-        {dayNames.map((day) => (
-          <div key={day} className="p-2">
-            {day}
-          </div>
-        ))}
-      </div>
-      <div className="grid grid-cols-5  gap-2 p-2">
-        {attendance.map((item) => {
-          console.log(item.date);
-          console.log(item.status);
-          return (
-            <div key={item.date} className={`p-2 border border-gray-300 text-center rounded-md bg-slate-100 ${getStatusClass(item.status)}`}>
-              <h2>{item.date}</h2>
-              <h2>{item.status}</h2>
+    // <div className="p-6 max-w-screen-lg mx-auto">
+    <section
+      id="ContactSection"
+      className="bg-gray-200 py-12 px-4 sm:px-6 lg:px-8 "
+    >
+      <div className="max-w-7xl mx-auto   px-4 sm:px-6  lg:px-8 ">
+        <h1 className="text-2xl font-semibold mb-4 text-center">
+          Attendance Calendar
+        </h1>
+        <div className="mb-4 grid grid-cols-5 gap-2 text-center text-white bg-orange-400 p-2 rounded-t-lg w-full">
+          {dayNames.map((day) => (
+            <div key={day} className="p-2">
+              {day}
             </div>
-          );
-        })}
+          ))}
+        </div>
+        <div className="grid grid-cols-5  gap-2 p-2 ">
+          {attendance.map((item) => {
+            console.log(item.date);
+            console.log(item.status);
+            return (
+              <div
+                key={item.date}
+                className={`p-2 border border-gray-300 text-center rounded-md bg-slate-100 ${getStatusClass(
+                  item.status
+                )}`}
+              >
+                <h2>{item.date}</h2>
+                <h2>{item.status}</h2>
+              </div>
+            );
+          })}
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

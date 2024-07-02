@@ -63,7 +63,7 @@ const StudentDetails = () => {
   return (
     <section
       id="ContactSection"
-      className="bg-gray-200 py-12 px-4 sm:px-6 lg:px-8"
+      className="bg-gray-200 py-12 px-4 sm:px-6 lg:px-8 "
     >
       <div className="max-w-7xl mx-auto   px-4 sm:px-6  lg:px-8 ">
         <div className="flex justify-around my-5 bg-white  sm:px-1 py-3 lg:px-8 rounded-lg">
@@ -71,35 +71,6 @@ const StudentDetails = () => {
           <h1 className="text-xl font-bold">{"Batch Name"}</h1>
         </div>
         <StudentCard studentName={name} attendance={attendanceData} />
-        <table>
-          <thead>
-            <tr>
-              <th>Sun</th>
-              <th>Mon</th>
-              <th>Tue</th>
-              <th>Wed</th>
-              <th>Thu</th>
-              <th>Fri</th>
-              <th>Sat</th>
-            </tr>
-          </thead>
-          {attendance?.map((day) => {
-            return (
-              <tr key={day.date}>
-                <td>{day.date}</td>
-                <td>{day.status}</td>
-              </tr>
-            );
-          })}
-        </table>
-        <div>
-          <div>
-            <p>Excused_absence: {summary.excusedAbsence}</p>
-            <p>Unexcused_absence: {summary.unexcusedAbsence}</p>
-
-            <p>Due Fine: {summary.dueFine}</p>
-          </div>
-        </div>
       </div>
     </section>
   );
