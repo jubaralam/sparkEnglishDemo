@@ -14,7 +14,8 @@ const InnovativeTeachingMethods = () => {
           <div className="bg-white overflow-hidden shadow rounded-lg">
             <img
               className="w-full h-64 object-cover"
-              src={frontSide}
+              src={backSide}
+
               alt="Image 1"
             />
             <div className="px-4 py-5 sm:p-6">
@@ -32,7 +33,8 @@ const InnovativeTeachingMethods = () => {
           <div className="bg-white overflow-hidden shadow rounded-lg">
             <img
               className="w-full h-64 object-fill"
-              src={backSide}
+              src={frontSide}
+
             />
             <div className="px-4 py-5 sm:p-6">
               <h3 className="text-lg font-semibold text-gray-900 mb-2">
