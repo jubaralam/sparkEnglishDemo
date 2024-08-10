@@ -5,7 +5,7 @@ import Login from "../Pages/Login";
 import Signup from "../Pages/Signup";
 import About from "../Pages/About";
 import Contact from "../Pages/Contact";
-import UserDashboard from "../Pages/UserDashboard";
+import AdminDashboard from "../Pages/AdminDashboard";
 import PrivateRoutes from "./PrivateRoutes";
 import StudentDetails from "./StudentDetails";
 const AllRoutes = () => {
@@ -20,7 +20,7 @@ const AllRoutes = () => {
         path="/admin/dashboard"
         element={
           <PrivateRoutes>
-            <UserDashboard />
+            <AdminDashboard />
           </PrivateRoutes>
         }
       />
